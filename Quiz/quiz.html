@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀴즈 앱</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>정보처리기사 실기</h1>
+
+        <div id="quiz-box">
+            <div id="question-count">문제 0 / 5</div>
+            <h2 id="question">예시문제</h2>
+
+            <div id="options">
+                <button class="option-btn" data-index="0">보기 1</button><br>
+                <button class="option-btn" data-index="1">보기 2</button><br>
+                <button class="option-btn" data-index="2">보기 3</button><br>
+                <button class="option-btn" data-index="3">보기 4</button><br>
+            </div>
+
+            <div id="feedback"></div>
+            <button id="next-btn">다음 문제</button>
+        </div>
+
+        <div id="result-box" style="display: none;">
+            <h2 id="result-title">결과</h2>
+            <p id="result-score"></p>
+            <p id="result-message"></p>
+            <button id="restart-btn">다시 풀기</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,19 +1,19 @@
 # Claude Opus 4.5 랜딩 페이지
 
 HTML과 CSS만으로 제작한 **단일 랜딩 페이지 프로젝트**입니다.  
-상단 네비게이션 바, 메인 히어로 섹션, 서비스 특징 소개 카드, 푸터로 구성되어 있으며, 반응형 레이아웃도 포함되어 있습니다. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+상단 네비게이션 바, 메인 히어로 섹션, 서비스 특징 소개 카드, 푸터로 구성되어 있으며, 반응형 레이아웃도 포함되어 있습니다.
 
 ## 프로젝트 소개
 
 이 프로젝트는 하나의 서비스 또는 브랜드를 소개하기 위한 **프로모션용 랜딩 페이지**를 구현한 예제입니다.  
-메인 화면에서 서비스 이름과 핵심 문구를 강조하고, 아래 섹션에서 주요 특징 4가지를 카드 형태로 보여주는 구조로 작성되었습니다. :contentReference[oaicite:2]{index=2}
+메인 화면에서 서비스 이름과 핵심 문구를 강조하고, 아래 섹션에서 주요 특징 4가지를 카드 형태로 보여주는 구조로 작성되었습니다. 
 
 페이지는 다음과 같은 흐름으로 구성됩니다.
 
 - 상단 네비게이션
 - 메인 히어로 섹션
 - 서비스 특징 소개 섹션
-- 푸터 영역 :contentReference[oaicite:3]{index=3}
+- 푸터 영역
 
 ## 주요 기능
 
@@ -21,14 +21,14 @@ HTML과 CSS만으로 제작한 **단일 랜딩 페이지 프로젝트**입니다
 - 메인 타이틀과 설명, CTA 버튼이 포함된 히어로 섹션
 - 4개의 feature card를 활용한 서비스 특징 소개
 - hover 효과를 활용한 버튼 및 카드 인터랙션
-- 모바일 화면 대응을 위한 반응형 레이아웃 적용 :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+- 모바일 화면 대응을 위한 반응형 레이아웃 적용 
 
 ## 기술 스택
 
 - HTML5
 - CSS3
 
-별도의 JavaScript 없이, 마크업과 스타일링만으로 화면을 구성한 프로젝트입니다. :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
+별도의 JavaScript 없이, 마크업과 스타일링만으로 화면을 구성한 프로젝트입니다.
 
 ## 파일 구성
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="재미있는 질문에 투표하고 결과를 확인하는 밸런스 게임 웹사이트">
+    <title>밸런스 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>밸런스 게임</h1>
+        <p id="question-text"></p>
+
+        <div class="options">
+            <button id="btn-a" class="option-btn option-a" type="button"></button>
+            <span class="vs-text">VS</span>
+            <button id="btn-b" class="option-btn option-b" type="button"></button>
+        </div>
+
+        <div id="result" class="hidden" aria-live="polite"></div>
+        <button id="next-btn" class="hidden" type="button">다음 질문</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
